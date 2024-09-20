@@ -3,7 +3,51 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <meta name="Author" content="Collin Chamberlin" />
+        <title>Hello World</title>
+        <style>
+            .title {
+                font-family: "sans-serf";
+            }
+        </style>
+        <link rel="stylesheet" href="index.css" />
     </head>
-    <body></body>
+    <body>
+        <h1>Hello world as an H1 Header</h1>
+        <p>This webapage is for our introduction to the HTML.</p>
+        <h2>Image Example</h2>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Web_2.0_Map.svg/1280px-Web_2.0_Map.svg.png"
+            alt="Wikipedia Web Terms Map"
+        />
+        <h2>Tables</h2>
+        <table>
+            <tr>
+                <th class="title">Row 1 Column 1</th>
+                <th>Row 1 Column 2</th>
+                <th>Row 1 Column 3</th>
+            </tr>
+            <tr>
+                <td>Row 2 Column 1</td>
+                <td>Row 2 Column 2</td>
+                <td>Row 2 Column 3</td>
+            </tr>
+        </table>
+        <h2>HTML Form</h2>
+        <form action="/action_page">
+            <div>
+                <label for="firstName">First Name</label><br />
+                <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    value="Joel"
+                />
+            </div>
+            <div>
+                <label for="lastName">Last Name</label><br />
+                <input type="text" id="lastName" name="lastName" value="Doe" />
+            </div>
+        </form>
+    </body>
 </html>

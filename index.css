@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: aqua;
+}
+p {
+    color: red;
+}
+form div {
+    background-color: aquamarine;
+}
