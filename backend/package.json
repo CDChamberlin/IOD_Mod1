@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a simple calculator",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "cchamberlin",
+  "license": "ISC",
+  "dependencies": {
+    "sentiment": "^5.0.2"
+  }
+}
